@@ -15,8 +15,8 @@ const Testimonial = () => {
       </div>
 
       <div className="lg:flex justify-center items-center mt-10 container mx-auto rounded-xl gap-4 mb-16">
-        <div>
-          <img src={left} alt="" />
+        <div className="flex ms-auto justify-center">
+          <img className="sm:mx-auto" src={left} alt="" />
         </div>
         <div class="container px-8  mx-auto border-2 rounded-lg">
           <div class="items-center lg:flex ">
@@ -55,7 +55,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div>
+        <div className="flex ms-auto justify-center">
           <img src={right} alt="" />
         </div>
       </div>

@@ -27,12 +27,12 @@ const Hero = () => {
                    Meet Our Specialist
                  </a>
                </div>
-               <div className="flex justify-end">
+               <div className="flex md:justify-end mt-3">
                  <p className="py-3 px-4 text-white font-semibold rounded-md shadow regCheck flex justify-center items-center">
                    <BsCheckCircle className="mr-3 regCheck" /> Regular Checkup
                  </p>
                </div>
-               <div className="flex justify-start gap-20 mt-4 ">
+               <div className="flex justify-start md:gap-20 sm:gap-10 mt-4 ">
                  <div>
                    <p className="font-bold text-2xl priority">262k</p>
                    <p>Recovered Patients</p>
@@ -54,7 +54,7 @@ const Hero = () => {
                  alt
                />
                <div>
-                  <img src={docCircle} alt="" />
+                 <img src={docCircle} alt="" />
                </div>
              </div>
            </div>
@@ -68,23 +68,23 @@ const Hero = () => {
                <div className="flex -space-x-4">
                  <img
                    alt=""
-                   className="w-12 h-12 border rounded-full dark:bg-gray-500 dark:border-gray-700"
-                   src="https://source.unsplash.com/40x40/?portrait?1"
+                   className="w-12 h-12 border rounded-full "
+                   src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=600"
                  />
                  <img
                    alt=""
-                   className="w-12 h-12 border rounded-full dark:bg-gray-500 dark:border-gray-700"
-                   src="https://source.unsplash.com/40x40/?portrait?2"
+                   className="w-12 h-12 border rounded-full "
+                   src="https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?size=626&ext=jpg"
                  />
                  <img
                    alt=""
-                   className="w-12 h-12 border rounded-full dark:bg-gray-500 dark:border-gray-700"
-                   src="https://source.unsplash.com/40x40/?portrait?3"
+                   className="w-12 h-12 border rounded-full "
+                   src="https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg"
                  />
                  <img
                    alt=""
-                   className="w-12 h-12 border rounded-full dark:bg-gray-500 dark:border-gray-700"
-                   src="https://source.unsplash.com/40x40/?portrait?4"
+                   className="w-12 h-12 border rounded-full "
+                   src="https://img.freepik.com/free-photo/african-american-medical-doctor-man-with-mask-isolated-gray-background_231208-2230.jpg?size=626&ext=jpg"
                  />
                  <span className="flex items-center justify-center w-12 h-12 font-semibold border rounded-full text-4xl plusBg text-white font-semibold">
                    +

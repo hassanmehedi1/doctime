@@ -174,8 +174,8 @@ const Faq = () => {
            </div>
          </div>
        </div>
-       <div className="lg:ml-16 solution sm:ml-52">
-         <div className="lg:ml-96 solution">
+       <div className=" solution sm:ml-72">
+         <div className="lg:ml-40 solution">
            <div className="flex lg:-mt-96 lg:ml-96 solution">
              <div className="w-60 flex justify-center items-center border-1 rounded-md shadow-xl p-2 solution">
                <img src={bulb} alt="" />

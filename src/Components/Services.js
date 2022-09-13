@@ -27,11 +27,11 @@ const Services = () => {
            <div class="mt-4 text-gray-500 sm:pr-8">
              <h5 class="mt-2 font-base textSer text-start">Cardiology</h5>
 
-             <p class="hidden mt-2 text-sm sm:block mb-3">
+             <p class=" mt-2 text-sm sm:block mb-3">
                Check your heart condition by our best cardiologist. For your
                first check you will get 20% discount.
              </p>
-             <div className="flex justify-center mt-4 absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
+             <div className="flex justify-center mt-4 md:absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
                <a
                  href="/"
                  className="py-2 px-4 fi text-white font-semibold rounded-md shadow freeCon sm:text-sm lg:text-base "
@@ -56,7 +56,7 @@ const Services = () => {
                Check up your body by our best doctors in the city. For your first check up
                you will get 20% discount.
              </p>
-             <div className="flex justify-center mt-2 absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
+             <div className="flex justify-center mt-2 md:absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
                <a
                  href="/"
                  className="py-2 px-4 fi text-white font-semibold rounded-md shadow freeCon sm:text-sm lg:text-base"
@@ -77,11 +77,11 @@ const Services = () => {
            <div class="mt-4 text-gray-500 sm:pr-8">
              <h5 class="mt-2 font-base textSer text-start">Dental Care</h5>
 
-             <p class="hidden mt-2 text-sm sm:block">
-               Check your tooth condition by our best dentals. For your first
+             <p class=" mt-2 text-sm sm:block">
+               Check your tooth condition by our dentals. For your first
                check you will get 20% discount.
              </p>
-             <div className="flex justify-center mt-2 absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
+             <div className="flex justify-center mt-2 md:absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
                <a
                  href="/"
                  className="py-2 px-4 fi text-white font-semibold rounded-md shadow freeCon sm:text-sm lg:text-base"
@@ -102,11 +102,11 @@ const Services = () => {
            <div class="mt-4 text-gray-500 sm:pr-8">
              <h5 class="mt-2 font-base textSer text-start">Opthalmology</h5>
 
-             <p class="hidden mt-2 text-sm sm:block">
+             <p class="mt-2 text-sm sm:block">
                Check your eye condition by our best eye specialist. For your
                first check you will get 20% discount.
              </p>
-             <div className="flex justify-center mt-2 absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
+             <div className="flex justify-center mt-2 md:absolute inset-x-0 bottom-0 mb-2 sm:mb-2 ">
                <a
                  href="/"
                  className="py-2 px-4 fi text-white font-semibold rounded-md shadow freeCon sm:text-sm lg:text-base"

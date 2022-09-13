@@ -2,6 +2,7 @@ import './App.css';
 import Experience from './Components/Experience';
 import Faq from './Components/Faq';
 import Feature from './Components/Feature';
+import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
 import Services from './Components/Services';
@@ -17,6 +18,7 @@ function App() {
       <Feature></Feature>
       <Faq></Faq>
       <Testimonial></Testimonial>
+      <Footer></Footer>
     </div>
   );
 }

@@ -24,7 +24,7 @@ const Feature = () => {
                  Make An Appointment Easy And Fast Services
                </h1>
              </div>
-             <div className="w-auto grid lg:grid-cols-2 sm:grid-cols-1 gap-16 px-10 mt-6 mb-10">
+             <div className="w-auto grid lg:grid-cols-2 sm:grid-cols-1 gap-8 px-10 mt-6 mb-10">
                <a
                  class="relative block p-8 border border-gray-100 shadow-xl rounded-xl "
                  href=""
