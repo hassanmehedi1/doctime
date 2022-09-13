@@ -17,7 +17,7 @@ const Services = () => {
        </div>
        <div className="w-auto lg:flex gap-16 px-10 mt-6 mb-10">
          <a
-           class="relative block p-8 border border-gray-100 shadow-xl rounded-xl"
+           class="relative block p-8 border border-gray-100 shadow-xl rounded-xl "
            href=""
          >
            <span class="absolute right-4 top-4 rounded-full px-3 py-1.5  font-medium text-2xl heartBg">
@@ -27,14 +27,14 @@ const Services = () => {
            <div class="mt-4 text-gray-500 sm:pr-8">
              <h5 class="mt-2 font-base textSer text-start">Cardiology</h5>
 
-             <p class="hidden mt-2 text-sm sm:block">
+             <p class="hidden mt-2 text-sm sm:block mb-3">
                Check your heart condition by our best cardiologist. For your
                first check you will get 20% discount.
              </p>
              <div className="flex justify-center mt-4 absolute inset-x-0 bottom-0 mb-2 sm:mb-0">
                <a
                  href="/"
-                 className="py-2 px-4 fi text-white font-semibold rounded-md shadow freeCon sm:text-sm lg:text-base"
+                 className="py-2 px-4 fi text-white font-semibold rounded-md shadow freeCon sm:text-sm lg:text-base "
                >
                  Explore Now
                </a>
@@ -52,8 +52,8 @@ const Services = () => {
            <div class="mt-4 text-gray-500 sm:pr-8">
              <h5 class="mt-2 font-base textSer text-start">Monthly Check Up</h5>
 
-             <p class="hidden mt-2 text-sm sm:block">
-               Check up your body by our best doctors. For your first check up
+             <p class="mb-2 mt-2 text-sm sm:block ">
+               Check up your body by our best doctors in the city. For your first check up
                you will get 20% discount.
              </p>
              <div className="flex justify-center mt-2 absolute inset-x-0 bottom-0 mb-2 sm:mb-0">

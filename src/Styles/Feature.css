@@ -1,0 +1,16 @@
+.title1 {
+   color: #642DFF;
+}
+
+.logo {
+   /* image 5 */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 845px;
+top: 1483px;
+
+background: url(image.png);
+
+}
