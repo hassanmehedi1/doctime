@@ -5,12 +5,12 @@ const Navbar = () => {
    const [state, setState] = useState(false);
 
     const navigation = [
-      { title: "Home", path: "javascript:void(0)" },
-      { title: "About", path: "javascript:void(0)" },
-      { title: "Departments", path: "javascript:void(0)" },
-      { title: "Pages", path: "javascript:void(0)" },
-      { title: "Blog", path: "javascript:void(0)" },
-      { title: "Contacts", path: "javascript:void(0)" },
+      { title: "Home", path: "/" },
+      { title: "About", path: "/" },
+      { title: "Departments", path: "/" },
+      { title: "Pages", path: "/" },
+      { title: "Blog", path: "/" },
+      { title: "Contacts", path: "/" },
     ];
 
    return (
@@ -82,10 +82,10 @@ const Navbar = () => {
            {/* Button  */}
            <div className="hidden md:inline-block">
              <a
-               href="javascript:void(0)"
+               href="/"
                className="py-3 px-4 text-white font-semibold rounded-md shadow freeCon"
              >
-               Free Consulation
+               Free Consultation
              </a>
            </div>
          </div>
