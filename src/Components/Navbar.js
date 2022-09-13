@@ -17,7 +17,9 @@ const Navbar = () => {
      <div>
        <nav className="bg-white w-full border-b md:border-0 md:static">
          <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-           <div className="flex items-center justify-between py-3 md:py-5 md:block">
+           <div className="flex items-center justify-between py-3 md:py-5 md:block"> 
+
+           {/* Title  */}
              <a href="/" className='font-bold text-xl titleDoc'>
                Doc<span className='titleMic'>mic.</span>
              </a>
@@ -76,6 +78,8 @@ const Navbar = () => {
                })}
              </ul>
            </div>
+           
+           {/* Button  */}
            <div className="hidden md:inline-block">
              <a
                href="javascript:void(0)"

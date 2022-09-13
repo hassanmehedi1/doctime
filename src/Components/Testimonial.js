@@ -9,15 +9,19 @@ import plus from "../Images/plus.png";
 const Testimonial = () => {
   return (
     <>
+      {/* Title  */}
       <div className="">
         <h1 className="text-xl title1 mt-52">Testimonial</h1>
         <h2 className="text-5xl font-semibold mt-4">What They Say?</h2>
       </div>
 
       <div className="lg:flex justify-center items-center mt-10 container mx-auto rounded-xl gap-4 mb-16">
+        {/* Left Arrow Button  */}
         <div className="flex ms-auto justify-center">
           <img className="sm:mx-auto" src={left} alt="" />
         </div>
+        
+        {/* Middle Info card section  */}
         <div class="container px-8  mx-auto border-2 rounded-lg">
           <div class="items-center lg:flex ">
             <div class="w-full lg:w-1/2">
@@ -54,7 +58,9 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
+        {/* Middle Info card section End  */}
 
+        {/* Right Arrow Button  */}
         <div className="flex ms-auto justify-center">
           <img src={right} alt="" />
         </div>

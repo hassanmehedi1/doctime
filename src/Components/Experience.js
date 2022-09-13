@@ -12,6 +12,8 @@ const Experience = () => {
             <h1 className="text-lg title1 text-start ml-2 lg:mb-10">
               16+ Years Of Experiences
             </h1>
+
+            {/* Title  */}
             <div class="">
               <h1 class="text-2xl font-semibold lg:text-5xl text-start mb-8">
                 We Always ensure Best Medical Treatment For Your Health
@@ -33,6 +35,7 @@ const Experience = () => {
             </div>
           </div>
 
+          {/* Image Section  */}
           <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
             <img class="w-full h-full max-w-md" src={docWalk} alt="docwalk" />
           </div>

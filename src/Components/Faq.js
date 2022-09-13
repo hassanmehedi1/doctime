@@ -11,6 +11,8 @@ const Faq = () => {
        <div class=" px-6 py-16 mx-auto">
          <div class="items-center lg:flex">
            <div class="w-full lg:w-1/2 lg:mb-24">
+
+            {/* Title Start */}
              <h1 className="text-lg title1 text-start ml-2 lg:mb-10">
                FAQ Questions
              </h1>
@@ -19,6 +21,8 @@ const Faq = () => {
                  Get Your General Answer
                </h1>
              </div>
+
+             {/* FAQ Component Start  */}
              <div class="space-y-1">
                <details class="p-6 border-l-4 border-green-500 bg-gray-50 group">
                  <summary class="flex items-center justify-between cursor-pointer">
@@ -169,13 +173,14 @@ const Faq = () => {
              </div>
            </div>
 
+          {/* Image Section  */}
            <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
              <img class="w-full h-full max-w-md" src={docThink} alt="docwalk" />
            </div>
          </div>
        </div>
        <div className=" solution sm:ml-72">
-         <div className="lg:ml-40 solution">
+         <div className="lg:ml-8 solution">
            <div className="flex lg:-mt-96 lg:ml-96 solution">
              <div className="w-60 flex justify-center items-center border-1 rounded-md shadow-xl p-2 solution">
                <img src={bulb} alt="" />

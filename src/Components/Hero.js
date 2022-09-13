@@ -10,6 +10,8 @@ const Hero = () => {
        <div className="lg:px-6 xl:px-0">
          <div className="mx-auto container relative z-0 px-4 xl:px-0">
            <div className="flex flex-col-reverse md:flex-row ">
+
+            {/* Title and paragraph  */}
              <div className="md:w-3/5 md:pt-24 pb-10 lg:py-32 xl:py-48">
                <h1 className="text-xl lg:text-3xl xl:text-6xl font-semibold text-center md:text-left tracking-tighter f-f-i md:w-7/12 leading-tight text-heading-color">
                  Your <span className="health">Health</span> Is Our Top
@@ -32,6 +34,8 @@ const Hero = () => {
                    <BsCheckCircle className="mr-3 regCheck" /> Regular Checkup
                  </p>
                </div>
+
+                {/* Stats  */}
                <div className="flex justify-start md:gap-20 sm:gap-10 mt-4 ">
                  <div>
                    <p className="font-bold text-2xl priority">262k</p>
@@ -47,11 +51,13 @@ const Hero = () => {
                  </div>
                </div>
              </div>
+
+             {/* Image Part  */}
              <div className="w-1/2 sm:w-2/5 h-64 md:h-auto m-auto flex items-center bg-[url('../Images/circle.png)] bg-fixed bg-center bg-no-repeat bg-cover zInImg">
                <img
                  className="md:absolute md:w-1/2 md:-ml-28"
                  src={docHero}
-                 alt
+                 alt="dochero"
                />
                <div>
                  <img src={docCircle} alt="" />
@@ -59,6 +65,8 @@ const Hero = () => {
              </div>
            </div>
          </div>
+
+         {/* Doctors Card  */}
          <div className="flex lg:justify-end xl:justify-end lg:-mt-72 zInCard sm:justify-center">
            <div class="w-full max-w-sm px-4 py-3 rounded-md shadow-md border-2 mt-5 grid bg-white ">
              <div class="flex items-center justify-between mb-2 font-semibold">
@@ -86,7 +94,7 @@ const Hero = () => {
                    className="w-12 h-12 border rounded-full "
                    src="https://img.freepik.com/free-photo/african-american-medical-doctor-man-with-mask-isolated-gray-background_231208-2230.jpg?size=626&ext=jpg"
                  />
-                 <span className="flex items-center justify-center w-12 h-12 font-semibold border rounded-full text-4xl plusBg text-white font-semibold">
+                 <span className="flex items-center justify-center w-12 h-12  border rounded-full text-4xl plusBg text-white font-semibold">
                    +
                  </span>
                </div>

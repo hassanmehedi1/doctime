@@ -15,6 +15,7 @@ const Feature = () => {
              <img class="w-full h-full max-w-md" src={docJump} alt="docwalk" />
            </div>
 
+            {/* Title  */}
            <div class="w-full lg:w-1/2 lg:mb-24">
              <h1 className="text-lg title1 text-start ml-2 lg:mb-10">
                Our Hospital Features
@@ -24,10 +25,13 @@ const Feature = () => {
                  Make An Appointment Easy And Fast Services
                </h1>
              </div>
+
+             {/* Cards Section Start  */}
+
              <div className="w-auto grid lg:grid-cols-2 sm:grid-cols-1 gap-8 px-10 mt-6 mb-10">
                <a
                  class="relative block p-8 border border-gray-100 shadow-xl rounded-xl "
-                 href=""
+                 href="/"
                >
                  <span class="absolute right-2 top-2 rounded-full px-3 py-1.5  font-medium text-2xl heartBg">
                    {/* <FaHeartbeat />  */}
@@ -47,7 +51,7 @@ const Feature = () => {
                </a>
                <a
                  class="relative block p-8 border border-gray-100 shadow-xl rounded-xl"
-                 href=""
+                 href="/"
                >
                  <span class="absolute right-2 top-2 rounded-full px-3 py-1.5  font-medium text-2xl checkBoard">
                    {/* <FaClipboardCheck />  */}
@@ -67,7 +71,7 @@ const Feature = () => {
                </a>
                <a
                  class="relative block p-8 border border-gray-100 shadow-xl rounded-xl"
-                 href=""
+                 href="/"
                >
                  <span class="absolute right-2 top-2 rounded-full px-3 py-1.5  font-medium text-2xl tooth">
                    {/* <FaTooth />  */}
@@ -87,7 +91,7 @@ const Feature = () => {
                </a>
                <a
                  class="relative block p-8 border border-gray-100 shadow-xl rounded-xl"
-                 href=""
+                 href="/"
                >
                  <span class="absolute right-2 top-2 rounded-full px-3 py-1.5  font-medium text-2xl aidKit">
                    {/* <ImAidKit />  */}
