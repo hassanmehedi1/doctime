@@ -4,19 +4,29 @@ import support from "../Images/support.png";
 import chat from "../Images/chat.png";
 import nature from "../Images/nature.png";
 import clock from "../Images/clock.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
 const Feature = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
    return (
      <>
        <div class=" px-6 py-16 mx-auto">
          <div class="items-center lg:flex">
-           <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+           {/* Image Section  */}
+           <div
+             class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2"
+             data-aos="fade-left"
+           >
              <img class="w-full h-full max-w-md" src={docJump} alt="docwalk" />
            </div>
 
-            {/* Title  */}
-           <div class="w-full lg:w-1/2 lg:mb-24">
+           {/* Title  */}
+           <div class="w-full lg:w-1/2 lg:mb-24" data-aos="fade-right">
              <h1 className="text-lg title1 text-start ml-2 lg:mb-10">
                Our Hospital Features
              </h1>
@@ -35,7 +45,7 @@ const Feature = () => {
                >
                  <span class="absolute right-2 top-2 rounded-full px-3 py-1.5  font-medium text-2xl heartBg">
                    {/* <FaHeartbeat />  */}
-                   <img className='' src={support} alt="" />
+                   <img className="" src={support} alt="" />
                  </span>
 
                  <div class="mt-4 text-gray-500 sm:pr-8">

@@ -5,8 +5,14 @@ import left from "../Images/left.png";
 import right from "../Images/right.png";
 import fragment from "../Images/fragment.png";
 import plus from "../Images/plus.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Testimonial = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       {/* Title  */}
@@ -17,12 +23,15 @@ const Testimonial = () => {
 
       <div className="lg:flex justify-center items-center mt-10 container mx-auto rounded-xl gap-4 mb-16">
         {/* Left Arrow Button  */}
-        <div className="flex ms-auto justify-center">
+        <div className="flex ms-auto justify-center" data-aos="fade-right">
           <img className="sm:mx-auto" src={left} alt="" />
         </div>
-        
+
         {/* Middle Info card section  */}
-        <div class="container px-8  mx-auto border-2 rounded-lg">
+        <div
+          class="container px-8  mx-auto border-2 rounded-lg"
+          data-aos="slide-up"
+        >
           <div class="items-center lg:flex ">
             <div class="w-full lg:w-1/2">
               <div class="lg:max-w-lg">
@@ -61,7 +70,7 @@ const Testimonial = () => {
         {/* Middle Info card section End  */}
 
         {/* Right Arrow Button  */}
-        <div className="flex ms-auto justify-center">
+        <div className="flex ms-auto justify-center" data-aos="fade-left">
           <img src={right} alt="" />
         </div>
       </div>

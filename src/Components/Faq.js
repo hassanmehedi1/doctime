@@ -2,17 +2,21 @@ import React from 'react';
 import '../Styles/Faq.css'
 import docThink from "../Images/docThink.png";
 import bulb from "../Images/bulb.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
 const Faq = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
    return (
      <>
-       <div></div>
        <div class=" px-6 py-16 mx-auto">
          <div class="items-center lg:flex">
-           <div class="w-full lg:w-1/2 lg:mb-24">
-
-            {/* Title Start */}
+           <div class="w-full lg:w-1/2 lg:mb-24" data-aos="fade-left">
+             {/* Title Start */}
              <h1 className="text-lg title1 text-start ml-2 lg:mb-10">
                FAQ Questions
              </h1>
@@ -173,8 +177,11 @@ const Faq = () => {
              </div>
            </div>
 
-          {/* Image Section  */}
-           <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+           {/* Image Section  */}
+           <div
+             class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2"
+             data-aos="fade-right"
+           >
              <img class="w-full h-full max-w-md" src={docThink} alt="docwalk" />
            </div>
          </div>
